@@ -13,8 +13,9 @@ depth + manifest (schema 2.0.0). Plus a relit QA turnaround.
     <TRELLIS2_PY> build2p5d.py --views <nvs_dir> --slug noble --out <pack_dir>
 """
 from __future__ import annotations
-import argparse, hashlib, json, os
+import argparse, hashlib, json, os, sys
 from pathlib import Path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 os.environ.setdefault("HF_HOME", os.environ.get("HF_HOME", "E:/AI-Models/hf-cache"))
 import numpy as np
 from PIL import Image, ImageFilter, ImageDraw

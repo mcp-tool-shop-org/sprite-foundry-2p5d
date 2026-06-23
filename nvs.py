@@ -8,9 +8,10 @@ with the Qwen-Edit text-encoder pinned to CPU (the VRAM fix).
     <COMFY_PY> nvs.py --image front.png --out dir/ --subject "<garment/identity descriptor>"
 """
 from __future__ import annotations
-import argparse, json, shutil, time, urllib.request, uuid
+import argparse, json, shutil, sys, os, time, urllib.request, uuid
 from pathlib import Path
 from PIL import Image
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # ComfyUI embedded python's ._pth omits the script dir
 from config import (COMFY_URL, COMFY_OUTPUT_DIR, COMFY_INPUT_DIR,
                     QWEN_EDIT_UNET, QWEN_CLIP, QWEN_VAE, NVS_VIEWS)
 

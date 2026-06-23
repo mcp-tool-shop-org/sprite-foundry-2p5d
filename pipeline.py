@@ -12,8 +12,9 @@ Phase 1 runs NVS (ComfyUI). Phase 2 POSTs /free (unloads Qwen-Edit ~20GB) then r
 estimators in-process — peak stays well under the 32GB ceiling.
 """
 from __future__ import annotations
-import argparse, json, subprocess, urllib.request
+import argparse, json, os, subprocess, sys, urllib.request
 from pathlib import Path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import COMFY_PY, COMFY_URL
 
 HERE = Path(__file__).parent
