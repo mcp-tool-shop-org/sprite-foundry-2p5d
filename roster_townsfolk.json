@@ -1,0 +1,18 @@
+[
+  {"slug": "barmaid",     "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/barmaid_v0.png",     "subject": "white apron over a brown bodice dress"},
+  {"slug": "beggar",      "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/beggar_v0.png",      "subject": "tattered grey-brown hooded cloak"},
+  {"slug": "blacksmith",  "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/blacksmith_v0.png",  "subject": "heavy leather apron over a bare chest"},
+  {"slug": "child",       "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/child_v0.png",       "subject": "straw hat and a white shirt with suspenders"},
+  {"slug": "elder",       "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/elder_v0.png",       "subject": "long brown robe and a white beard"},
+  {"slug": "farmer",      "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/farmer_v0.png",      "subject": "straw hat and tan work clothes"},
+  {"slug": "fisherman",   "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/fisherman_v0.png",   "subject": "green and yellow oilskin coat and hat"},
+  {"slug": "guard",       "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/guard_v0.png",       "subject": "segmented steel armor and an open-faced helmet"},
+  {"slug": "herbalist",   "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/herbalist_v0.png",   "subject": "deep green robe"},
+  {"slug": "innkeeper",   "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/innkeeper_v0.png",   "subject": "brown vest over a white shirt with a waist apron"},
+  {"slug": "lamplighter", "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/lamplighter_v0.png", "subject": "dark long coat and a flat cap"},
+  {"slug": "merchant",    "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/merchant_v0.png",    "subject": "maroon long coat with gold buttons"},
+  {"slug": "minstrel",    "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/minstrel_v0.png",    "subject": "green-and-red motley costume with a feathered cap"},
+  {"slug": "noble",       "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/noble_v0.png",       "subject": "royal-blue coat with gold trim and a white cravat"},
+  {"slug": "scribe",      "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/scribe_v0.png",      "subject": "hooded brown robe and small spectacles"},
+  {"slug": "stable-hand", "concept": "E:/AI/training/_p0_packs_modernize/townsfolk_hd/concepts/stable-hand_v0.png", "subject": "tan shirt and a brown vest"}
+]

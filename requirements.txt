@@ -1,0 +1,9 @@
+# GPU runtime deps (install into the trellis2-env / a torch-CUDA venv).
+# torch/torchvision are provided by the rig venv (Blackwell: torch 2.10+cu130).
+diffusers>=0.38
+transformers>=4.45,<5
+Pillow>=10.0
+numpy>=1.24
+kornia>=0.7
+timm>=0.9
+# (Depth-Anything-V2 ships via transformers; Marigold via diffusers; BiRefNet via trust_remote_code.)
