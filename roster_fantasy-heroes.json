@@ -1,0 +1,18 @@
+[
+  {"slug": "fighter",    "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/fighter_v0.png",    "subject": "layered brown leather-and-scale armor with a round wooden shield"},
+  {"slug": "ranger",     "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/ranger_v0.png",     "subject": "hooded forest-green cloak and leather jerkin with a longbow"},
+  {"slug": "mage",       "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/mage_v0.png",       "subject": "deep-blue robe and a tall pointed wizard hat"},
+  {"slug": "rogue",      "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/rogue_v0.png",      "subject": "black hood and dark grey leather armor with a cloth face-mask"},
+  {"slug": "cleric",     "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/cleric_v0.png",     "subject": "white and cream robes with gold-trimmed pauldrons"},
+  {"slug": "barbarian",  "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/barbarian_v0.png",  "subject": "bare muscular chest and a fur kilt, wielding two axes"},
+  {"slug": "paladin",    "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/paladin_v0.png",    "subject": "blue-and-silver plate armor with a red-cross kite shield"},
+  {"slug": "monk",       "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/monk_v0.png",       "subject": "sleeveless white gi with a green sash and a bo staff"},
+  {"slug": "bard",       "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/bard_v0.png",       "subject": "burgundy doublet and a wide feathered cap with a lute"},
+  {"slug": "druid",      "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/druid_v0.png",      "subject": "antlered headdress and green-brown nature robes"},
+  {"slug": "warlock",    "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/warlock_v0.png",    "subject": "black hooded robe channeling purple energy"},
+  {"slug": "sorcerer",   "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/sorcerer_v0.png",   "subject": "an open sapphire-blue robe with long white hair"},
+  {"slug": "artificer",  "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/artificer_v0.png",  "subject": "brown leather coat with brass goggles and a tool belt"},
+  {"slug": "samurai",    "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/samurai_v0.png",    "subject": "dark-blue lamellar armor with red accents and a horned kabuto helmet"},
+  {"slug": "knight",     "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/knight_v0.png",     "subject": "heavy steel full plate with a red-plumed helm"},
+  {"slug": "white_mage", "concept": "E:/AI/training/_p0_packs_modernize/fantasy_heroes_hd/concepts/white_mage_v0.png", "subject": "white and gold robes with an ornate golden staff"}
+]

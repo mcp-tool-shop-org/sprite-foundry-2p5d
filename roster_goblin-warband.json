@@ -1,0 +1,18 @@
+[
+  {"slug": "grunt",         "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/grunt_v0.png",         "subject": "crude leather scraps, wielding a jagged dagger"},
+  {"slug": "archer",        "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/archer_v0.png",        "subject": "patched leather armor with a short bow and quiver"},
+  {"slug": "shaman",        "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/shaman_v0.png",        "subject": "a tattered purple robe with bone fetishes and a horned totem staff"},
+  {"slug": "brute",         "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/brute_v0.png",         "subject": "a bare muscled chest with iron armor straps and a massive club"},
+  {"slug": "scout",         "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/scout_v0.png",         "subject": "a dark hooded cloak over light leather with a dagger"},
+  {"slug": "bomber",        "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/bomber_v0.png",        "subject": "cracked brass goggles, a lit bomb and a satchel of explosives"},
+  {"slug": "warchief",      "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/warchief_v0.png",      "subject": "spiked iron armor with skull trophies and a bladed war-spear"},
+  {"slug": "wolf-rider",    "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/wolf-rider_v0.png",    "subject": "wolf-pelt riding leathers and a fanged wolf-skull helm with a short spear"},
+  {"slug": "merchant",      "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/merchant_v0.png",      "subject": "a patched vest, a loot sack and a brass balance scale"},
+  {"slug": "trap-maker",    "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/trap-maker_v0.png",    "subject": "coils of rope and netting with stakes and a wooden trap"},
+  {"slug": "tunneler",      "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/tunneler_v0.png",      "subject": "a glowing headlamp and a worn pickaxe with grimy work leathers"},
+  {"slug": "pup",           "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/pup_v0.png",           "subject": "an oversized iron helmet and a little wooden sword"},
+  {"slug": "cook",          "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/cook_v0.png",          "subject": "a grease-stained apron and a tall cook's hat with a ladle"},
+  {"slug": "banner-bearer", "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/banner-bearer_v0.png", "subject": "a tall ragged war-banner on a pole with a war-drum"},
+  {"slug": "prisoner",      "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/prisoner_v0.png",      "subject": "tattered rags with broken iron shackles"},
+  {"slug": "alchemist",     "concept": "E:/AI/training/_p0_packs_modernize/goblin_warband_hd/concepts/alchemist_v0.png",     "subject": "a stained leather apron, cracked goggles and a bandolier of glowing vials"}
+]

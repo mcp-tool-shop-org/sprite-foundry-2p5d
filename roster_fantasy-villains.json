@@ -1,0 +1,18 @@
+[
+  {"slug": "blackguard",         "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/blackguard_v0.png",         "subject": "blackened plate armor with a horned helm and a halberd"},
+  {"slug": "dread-ranger",       "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/dread-ranger_v0.png",       "subject": "black hooded cloak and dark leather with a recurve bow"},
+  {"slug": "necromancer",        "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/necromancer_v0.png",        "subject": "dark robes with bone ornaments and a skull-topped staff"},
+  {"slug": "assassin",           "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/assassin_v0.png",           "subject": "dark green-black leather with a hood and twin curved daggers"},
+  {"slug": "cult-priest",        "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/cult-priest_v0.png",        "subject": "deep-red ritual robes with a horned headdress"},
+  {"slug": "reaver",             "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/reaver_v0.png",             "subject": "bare muscled scarred chest, wielding a massive cleaver"},
+  {"slug": "warlord",            "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/warlord_v0.png",            "subject": "ornate red-and-gold armor with a red-plumed helm and a cape"},
+  {"slug": "dark-monk",          "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/dark-monk_v0.png",          "subject": "black-and-grey martial robes with a red sash"},
+  {"slug": "vampire-lord",       "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/vampire-lord_v0.png",       "subject": "a high-collared black cape lined with deep red"},
+  {"slug": "gorgon",             "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/gorgon_v0.png",             "subject": "writhing snake hair, green scaled skin and bronze Greek armor"},
+  {"slug": "mind-tyrant",        "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/mind-tyrant_v0.png",        "subject": "flowing purple robes with a tentacled face and a psychic crown"},
+  {"slug": "corrupted-paladin",  "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/corrupted-paladin_v0.png",  "subject": "cracked tarnished holy armor with a dark broken halo"},
+  {"slug": "witch",              "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/witch_v0.png",              "subject": "dark green robes and a tall crooked pointed hat"},
+  {"slug": "bandit-king",        "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/bandit-king_v0.png",        "subject": "a fur cloak and a crown of thorns with twin swords"},
+  {"slug": "dark-elf-matriarch", "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/dark-elf-matriarch_v0.png", "subject": "elegant dark-purple robes with a spider motif and white hair"},
+  {"slug": "plague-doctor",      "concept": "E:/AI/training/_p0_packs_modernize/fantasy_villains_hd/concepts/plague-doctor_v0.png",      "subject": "a long dark waxed coat and a bird-beak mask"}
+]
