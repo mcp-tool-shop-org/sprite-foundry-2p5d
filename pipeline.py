@@ -15,7 +15,7 @@ from __future__ import annotations
 import argparse, json, os, subprocess, sys, urllib.request
 from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from config import COMFY_PY, COMFY_URL
+from config import COMFY_PY, COMFY_URL, DIRECTIONS
 
 HERE = Path(__file__).parent
 
@@ -38,21 +38,26 @@ def nvs_one(concept: Path, subject: str, nvs_dir: Path):
 def run_roster(roster: list, out: Path):
     out.mkdir(parents=True, exist_ok=True)
     nvs_root = out / "_nvs"
-    # Phase 1 — NVS all (ComfyUI / Qwen-Edit)
+    # Phase 1 — NVS (ComfyUI / Qwen-Edit). RESUMABLE: skip chars whose 8 views already exist.
     print(f"== Phase 1: NVS for {len(roster)} characters ==")
     for c in roster:
+        nvs_dir = nvs_root / c["slug"]
+        if all((nvs_dir / f"{d}.png").exists() for d in DIRECTIONS):
+            print(f"-- NVS {c['slug']}: complete, skip --"); continue
         print(f"-- NVS {c['slug']} --")
-        nvs_one(Path(c["concept"]), c["subject"], nvs_root / c["slug"])
-    # Phase 2 — free Qwen-Edit, run estimators in-process (load models ONCE, loop)
-    print("== Phase 2: free ComfyUI models + build 2.5D packs ==")
+        nvs_one(Path(c["concept"]), c["subject"], nvs_dir)
+    # Phase 2 — RESUMABLE: skip chars whose pack manifest exists; skip the model load if none remain.
+    todo = [c for c in roster if not (out / "assets" / c["slug"] / "manifest.json").exists()]
+    if not todo:
+        print("== Phase 2: all packs already built, nothing to do =="); print(f"DONE roster -> {out}"); return
+    print(f"== Phase 2: free ComfyUI models + build {len(todo)} 2.5D packs ==")
     _free()
     import build2p5d
     models = build2p5d.load_models()
-    # monkey-free: reuse the loaded models by calling the internals per character
-    for c in roster:
-        slug = c["slug"]; vd = nvs_root / slug
+    for c in todo:
+        slug = c["slug"]
         print(f"-- build {slug} --")
-        _build_with_models(build2p5d, models, vd, slug, out)
+        _build_with_models(build2p5d, models, nvs_root / slug, slug, out)
     print(f"DONE roster -> {out}")
 
 
