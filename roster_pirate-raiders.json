@@ -1,0 +1,18 @@
+[
+  {"slug": "captain",        "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/captain_v0.png",        "subject": "a tricorne hat and a long navy-blue coat with gold trim and a cutlass"},
+  {"slug": "quartermaster",  "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/quartermaster_v0.png",  "subject": "a weathered brown coat and a red bandana with a flintlock pistol"},
+  {"slug": "cutthroat",      "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/cutthroat_v0.png",      "subject": "a red sash and an open shirt with a bandana and a cutlass"},
+  {"slug": "pistoleer",      "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/pistoleer_v0.png",      "subject": "a leather coat and a feathered hat with a pair of flintlock pistols"},
+  {"slug": "navy-sailor",    "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/navy-sailor_v0.png",    "subject": "a blue-and-white naval uniform with a bicorne hat and a musket"},
+  {"slug": "governor",       "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/governor_v0.png",       "subject": "a fine brocade coat and a powdered wig with an ornate cane"},
+  {"slug": "drowned",        "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/drowned_v0.png",        "subject": "pale green-grey skin draped in seaweed and tattered sailor's clothes"},
+  {"slug": "sea-priest",     "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/sea-priest_v0.png",     "subject": "deep teal-and-grey robes with a coral staff"},
+  {"slug": "cabin-boy",      "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/cabin-boy_v0.png",      "subject": "an oversized tricorne hat and a striped shirt with a wooden mop"},
+  {"slug": "navigator",      "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/navigator_v0.png",      "subject": "a long coat with a brass spyglass, a rolled sea-chart and an astrolabe"},
+  {"slug": "ships-cook",     "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/ships-cook_v0.png",     "subject": "a stained apron and a bandana with a heavy cleaver"},
+  {"slug": "smuggler",       "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/smuggler_v0.png",       "subject": "a dark hooded cloak with hidden pouches and gold teeth"},
+  {"slug": "privateer",      "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/privateer_v0.png",      "subject": "an elegant burgundy coat with gold braid and a plumed hat with a rapier"},
+  {"slug": "siren",          "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/siren_v0.png",          "subject": "long flowing teal hair and shell jewelry in clinging sea-green robes"},
+  {"slug": "kraken-cultist", "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/kraken-cultist_v0.png", "subject": "dark dripping robes with tentacle tattoos and a tentacled idol"},
+  {"slug": "shipwright",     "concept": "E:/AI/training/_p0_packs_modernize/pirate_raiders_hd/concepts/shipwright_v0.png",     "subject": "rolled sleeves and a leather tool-apron with a heavy hammer"}
+]

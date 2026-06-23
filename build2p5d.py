@@ -28,6 +28,14 @@ ENGINE_NOTES = {
     "phaser": "albedo + normal (_n); mask/depth tooling-only",
 }
 
+# Face-preserve: de-lighting flattens painterly faces — a face's detail IS its soft
+# shading, which Marigold-IID strips as "lighting". So the head region keeps the lit
+# view blended back in (the concepts are flat-lit, so this is detail, not baked light);
+# the body stays fully de-lit for runtime relighting.
+FACE_PRESERVE = 0.85   # head-core blend strength toward the lit view (0 disables)
+HEAD_FRAC = 0.22       # head region = top this fraction of the silhouette height
+HEAD_CORE = 0.45       # full strength over the top HEAD_CORE of that region, then ramp to 0
+
 
 def load_models():
     import torch
@@ -96,8 +104,22 @@ def _sha(p):
     h = hashlib.sha256(); h.update(Path(p).read_bytes()); return h.hexdigest()
 
 
-def process_and_assemble(views_dir: Path, slug: str, out: Path):
-    models = load_models()
+def head_weight(mask):
+    """Soft top-of-silhouette weight (1 at the crown, ramping to 0 below the head)."""
+    ys, _ = np.where(mask > 0.5)
+    if len(ys) == 0:
+        return np.zeros_like(mask, np.float32)
+    y0, y1 = ys.min(), ys.max()
+    h = max(1, y1 - y0)
+    yy = np.arange(mask.shape[0], dtype=np.float32).reshape(-1, 1)
+    t = (yy - y0) / (HEAD_FRAC * h)
+    w = np.where(t <= HEAD_CORE, 1.0, np.clip((1.0 - t) / (1.0 - HEAD_CORE), 0, 1))
+    return (np.clip(w, 0, 1) * (mask > 0.5)).astype(np.float32)
+
+
+def process_and_assemble(views_dir: Path, slug: str, out: Path, models=None):
+    if models is None:
+        models = load_models()
     asset = out / "assets" / slug
     for l in LAYERS:
         (asset / l).mkdir(parents=True, exist_ok=True)
@@ -115,6 +137,12 @@ def process_and_assemble(views_dir: Path, slug: str, out: Path):
         iid = models["iid"](rgb)
         vis = models["iid"].image_processor.visualize_intrinsics(iid.prediction, models["iid"].target_properties)[0]
         albedo = np.asarray(vis["albedo"].convert("RGB"))
+        if FACE_PRESERVE > 0:
+            ah, aw = albedo.shape[:2]
+            lit = np.asarray(rgb.resize((aw, ah), Image.LANCZOS), np.float32)
+            m_a = np.asarray(Image.fromarray((mask * 255).astype(np.uint8)).resize((aw, ah)), np.float32) / 255.0
+            hw = (head_weight(m_a) * FACE_PRESERVE)[..., None]
+            albedo = (albedo.astype(np.float32) * (1 - hw) + lit * hw).clip(0, 255).astype(np.uint8)
         rough = np.asarray(vis["roughness"].convert("L"))
         ao = ao_from_depth(depth, mask)
         per[d] = {"mask": mask, "albedo": albedo, "rough": rough,

@@ -1,0 +1,22 @@
+[
+  {"slug": "villager",         "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/villager_v0.png",         "subject": "a simple homespun tunic and a hood"},
+  {"slug": "maiden",           "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/maiden_v0.png",           "subject": "a plain long dress and a wool shawl"},
+  {"slug": "gravedigger",      "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/gravedigger_v0.png",      "subject": "muddy work clothes and a leather apron with a shovel and lantern"},
+  {"slug": "elder",            "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/elder_v0.png",            "subject": "a worn brown robe and a long grey beard with a cane"},
+  {"slug": "farmer",           "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/farmer_v0.png",           "subject": "rough work clothes and a wide straw hat with a scythe"},
+  {"slug": "friar",            "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/friar_v0.png",            "subject": "a brown hooded habit with a rope belt and prayer beads"},
+  {"slug": "footman",          "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/footman_v0.png",          "subject": "a padded gambeson and a kettle helm with a spear and round shield"},
+  {"slug": "knight",           "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/knight_v0.png",           "subject": "worn steel plate and a surcoat with a longsword"},
+  {"slug": "hunter",           "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/hunter_v0.png",           "subject": "leather and rough furs with a longbow and quiver"},
+  {"slug": "noble",            "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/noble_v0.png",            "subject": "muted fine clothes and a fur-trimmed cloak"},
+  {"slug": "risen-villager",   "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/risen-villager_v0.png",   "subject": "torn homespun with grey decaying flesh and hollow eyes"},
+  {"slug": "wraith",           "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/wraith_v0.png",           "subject": "a half-translucent tattered dress, pale and sorrowful"},
+  {"slug": "ghoul",            "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/ghoul_v0.png",            "subject": "torn grave-clothes with long grey claws and ashen feral skin"},
+  {"slug": "wight",            "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/wight_v0.png",            "subject": "ancient rotted robes with leathery skin over bone and cold glowing eyes"},
+  {"slug": "risen-farmer",     "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/risen-farmer_v0.png",     "subject": "muddy rags and a torn straw hat, dragging a rusted scythe"},
+  {"slug": "plague-friar",     "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/plague-friar_v0.png",     "subject": "a mildewed brown habit with bandaged plague-sores and broken prayer beads"},
+  {"slug": "skeleton-warrior", "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/skeleton-warrior_v0.png", "subject": "a rusted gambeson and dented kettle helm with a notched spear"},
+  {"slug": "dread-knight",     "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/dread-knight_v0.png",     "subject": "rotted rusted plate armor with a hollow dark visor and a corroded longsword"},
+  {"slug": "skeletal-archer",  "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/skeletal-archer_v0.png",  "subject": "tattered leathers and a rotted quiver with a warped longbow"},
+  {"slug": "revenant",         "concept": "E:/AI/training/_p0_packs_modernize/fantasy_undead_hd/concepts/revenant_v0.png",         "subject": "decayed finery and a rotted fur-trimmed cloak with a grey withered face"}
+]
